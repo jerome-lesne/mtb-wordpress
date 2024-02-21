@@ -1,0 +1,44 @@
+/**
+Theme Name: astra-child
+Author: Jerome Lesne
+Author URI: j
+Description: Astra is the fastest, fully customizable & beautiful theme suitable for blogs, personal portfolios and business
+websites. It is very lightweight (less than 50KB on frontend) and offers unparalleled speed.
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: astra-child
+Template: astra
+*/
+
+#masthead {
+    position: fixed;
+    width: 100%;
+}
+
+.gallery-caption {
+    border: unset !important;
+}
+
+.ast-primary-header-bar {
+    background: rgba(0, 0, 0, 0.2) !important;
+    border: none;
+}
+
+.ast-primary-header-bar {
+    border: none !important;
+}
+
+.attachment-thumbnail {
+    border-radius: 50% !important;
+}
+
+.wp-post-image {
+    object-fit: cover;
+    height: 250px !important;
+    width: 250px !important;
+}
+
+#nextLevel :hover {
+    cursor: pointer;
+}
